@@ -1,11 +1,11 @@
-import React from 'react'
+import { Typography, Container } from '@mui/material';
 
 function Home() {
   return (
-    <div>
-      
-    </div>
-  )
+    <Container>
+      <Typography variant="h3" gutterBottom>Welcome to GitHub OAuth App</Typography>
+    </Container>
+  );
 }
 
-export default Home
+export default Home;

@@ -1,17 +1,28 @@
- 🚀 GitHub OAuth React App
+# GitHub OAuth App
 
-Тестовое задание для Frontend Developer с авторизацией через GitHub OAuth и работой с GitHub API v3.
+Это приложение использует OAuth авторизацию через GitHub API для получения данных профиля пользователя и отображения репозиториев.
 
- ## Установленные зависимости:
+## Структура проекта
 
-- **react-router-dom** — маршрутизация
-- **axios** — HTTP-запросы
-- **@mui/material** — библиотека компонентов Material UI
-- **@mui/icons-material** — иконки для Material UI
-- **@emotion/react** и **@emotion/styled** — стилизация для Material UI (ставится автоматически вместе с MUI)
+1. **Компоненты:**
+   - **Header.jsx** — заголовок приложения с навигацией.
+   - **ProfilePage.jsx** — страница профиля пользователя.
+   - **ReposPage.jsx** — страница с репозиториями пользователя.
+   - **UsersPage.jsx** — страница с поиском других пользователей.
 
-## 📖 Как запустить:
-1. git clone {твой репозиторий}
-2. cd github-oauth-app
-3. npm install
-4. npm run dev
+2. **Маршруты (AppRouter.jsx)** — для переключения между страницами.
+
+## Зависимости
+
+- React
+- axios
+- react-router-dom
+- Material UI (если используешь в проекте)
+
+## Запуск проекта локально
+
+1. Клонируй репозиторий:
+
+
+   ```bash
+   git clone (https://github.com/nroucu/GitHub-OAuth-React-App.git)
